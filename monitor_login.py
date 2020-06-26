@@ -1,3 +1,5 @@
+# Với CentOS chỉnh sửa lại dong sau:
+# docfile_log = open("/var/log/secure").readlines()
 docfile_log = open("/var/log/auth.log").readlines()
 ghidulieu = open("/var/tools/zabbix/monitor/login_monitor.txt", 'a')
 docfile_dl_f_ssh = open("/var/tools/zabbix/monitor/login_monitor.txt").readlines()
