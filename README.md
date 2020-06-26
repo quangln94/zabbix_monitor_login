@@ -38,13 +38,14 @@ wget https://raw.githubusercontent.com/thanhha123/zabbix_monitor_login/master/mo
 
 mkdir -p /var/tools/zabbix/monitor/
 
-cp login_monitor.py /var/tools/zabbix/monitor/login_monitor.py
-chmod +x /var/tools/zabbix/monitor/login_monitor.py
+cp monitor_login.py /var/tools/zabbix/monitor/monitor_login.py
+chmod +x /var/tools/zabbix/monitor/monitor_login.py
 ```
 
 Chạy script dữ liệu sẽ dưới dạng file JSON
-
-
+```sh
+python /var/tools/zabbix/monitor/monitor_login.py
+```
 <img src=http://i.imgur.com/gRAAgAM.png width="80%" height="80%" border="1">
 
 Sau khi chạy script xong tại thư mục /var/zabbix/monitor/ sẽ sinh ra file login_monitor.txt chứa các dòng dữ liệu trong file log để lưu dữ liệu khi file log bị xóa
