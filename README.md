@@ -8,7 +8,8 @@ Một server public ra ngoài mạng internet đứng trước nguy cơ mâ�
 Khi có sự kiện đăng nhập trực tiếp hay từ xa hệ thống sẽ ghi lại nhật ký trong file log
 
 ```sh 
-tail /var/log/auth.log
+tail /var/log/auth.log   # Với Ubuntu
+tail /var/log/secure     # Với CentOS   
 ```
 
 <img src=http://i.imgur.com/ycnoVaF.png width="80%" height="80%" border="1">
