@@ -35,7 +35,7 @@ Tuy nhiên hệ thống sẽ xóa file log định kỳ nên để số lâ
 Tải script và tạo thư mục chứa file script:
 
 ```sh
-wget https://raw.githubusercontent.com/thanhha123/zabbix_monitor_login/master/monitor_login.py
+wget https://raw.githubusercontent.com/quangln94/zabbix_monitor_login/master/monitor_login.py
 
 mkdir -p /var/tools/zabbix/monitor/
 
