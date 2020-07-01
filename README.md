@@ -39,8 +39,10 @@ wget https://raw.githubusercontent.com/quangln94/zabbix_monitor_login/master/mon
 
 mkdir -p /var/tools/zabbix/monitor/
 
+chmod -R +x /var/log/secure
+
 cp monitor_login.py /var/tools/zabbix/monitor/monitor_login.py
-chmod +x /var/tools/zabbix/monitor/monitor_login.py
+chmod -R +x /var/tools/zabbix/monitor/monitor_login.py
 ```
 
 Chạy script dữ liệu sẽ dưới dạng file JSON
