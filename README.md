@@ -93,3 +93,5 @@ Kết quả:
 
 <img src=http://i.imgur.com/mbousuT.png width="80%" height="80%" border="1">
 
+## Tài liệu tham khảo
+- https://github.com/hocchudong/zabbix_monitor_login
